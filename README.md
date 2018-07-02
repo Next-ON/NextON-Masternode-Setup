@@ -30,7 +30,7 @@ You will then receive your private key, save it in a txt to use it later.
 
 	:arrow_forward: `wget https://github.com/Next-ON/NextON/releases/download/0.0.1/Linux_X64.tar`
 
-	:arrow_forward: `tar -zxvf ./Linux_X64.ta`
+	:arrow_forward: `tar -zxvf ./Linux_X64.tar`
 
 	:arrow_forward: `cd Linux_X64/`
 
@@ -38,27 +38,28 @@ You will then receive your private key, save it in a txt to use it later.
 
 	Previous command will return you a warning message where you can find info similar to this:
 
-		rpcuser=nxtonrpc
-		rpcpassword=6fDot74g2YzvaGDfnGEqKUidhw27yf9rh2iS4uaXqa345
+		Exemple:
+			rpcuser=nxtonrpc
+			rpcpassword=6fDot74g2YzvaGDfnGEqKUidhw27yf9rh2iS4uaXqa345
 
 	Save rpcuser and rpcpassword you got in warning message in a txt. You will need it in next step
 
 	:arrow_forward: `nano /root/.NXTON/nxton.conf`
 
 	It will open a text editor in your VPS where you need to paste the following:
-	(just change what’s between ** to your personal information)
+	(just change to your personal information)
 
 	```
 	rpcallowip=127.0.0.1
-	rpcuser=**THE ONE YOU SAVED BEFORE**
-  	rpcpassword=**THE ONE YOU SAVED BEFORE**
+	rpcuser=THE ONE YOU SAVED BEFORE
+  	rpcpassword=THE ONE YOU SAVED BEFORE
 	server=1
 	daemon=1
 	logtimestamps=1
 	maxconnections=256
 	masternode=1
-	externalip=**YOUR VPS IP**
-	masternodeprivkey=**MASTERNODE_PRIVATE_KEY**
+	externalip=YOUR VPS IP
+	masternodeprivkey=MASTERNODE_PRIVATE_KEY
 	```
 	When you finish just press CTRL + X and then hit Y follow by ENTER
 
@@ -81,7 +82,7 @@ You will then receive your private key, save it in a txt to use it later.
 ***(For the next steps you need to have already 21 confirmation on “Payment to yourself “ created in first step)***
 
 * At Masternode Tab choose the Masternode with the status MISSING and press “ Start Alias “.
-	(You will get an error, it’s suppose to)
+	(You will get an error, it’s suppose to. Just press OK)
 
 * Go to Debug Console type the following: ***startmasternode alias false (mymnalias)***
 
