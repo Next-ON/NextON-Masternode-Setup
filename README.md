@@ -101,4 +101,4 @@ At this point if all correct you will get your Masternode Running, to double che
 
 You need to get **"status" : 4**
 
-## Confratulations your NextON node it's running
+## Congratulations your NextON node it's running
