@@ -15,7 +15,7 @@
 * Open the Debug Console ( Tools – Debug Console ) and type ***masternode genkey***.
 You will then receive your private key, save it in a txt to use it later.
   ```
-  Exemple:
+  Example:
           masternode genkey
           w8723KqiiqtiLH6y2ktjfwzuSrNucGAbagpmTmCn1KnNEeQTJKf
 * Still at Debug Console type ***masternode outputs*** and save txhash and outputidx on a txt
@@ -38,7 +38,7 @@ You will then receive your private key, save it in a txt to use it later.
 
 	Previous command will return you a warning message where you can find info similar to this:
 
-		Exemple:
+		Example:
 			rpcuser=nxtonrpc
 			rpcpassword=6fDot74g2YzvaGDfnGEqKUidhw27yf9rh2iS4uaXqa345
 
@@ -73,7 +73,7 @@ You will then receive your private key, save it in a txt to use it later.
 
 **ALIAS VPS_IP**:32698 **masternodeprivkey TXhash Output**
 
-		Exemple:
+		Example:
 		MN1 125.67.32.10:32698 w8723KqiiqtiLH6y2ktjfwzuSrNucGAbagpmTmCn1KnNEeQTJKf
 		12fce79c1a5623aa5b5830abff1a9feb6a682b75ee9fe22c647725a3gef42saa 0
 
@@ -86,7 +86,7 @@ You will then receive your private key, save it in a txt to use it later.
 
 * Go to Debug Console type the following: ***startmasternode alias false (mymnalias)***
 
-		Exemple:
+		Example:
 		startmasternode alias false MN1
 
 ***
